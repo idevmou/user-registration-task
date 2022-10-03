@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* welcome page styles */
+
+.hding-edt {
+    color: white;
+    background-image: linear-gradient(to right, #9A0680, #160040);
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    font-size: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.sec-edt {
+    background-color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+    height: 80vh;
+}
+
+.hding {
+    padding: 50px 50px 10px 50px;
+    margin: 23px 0 8px 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px 00px 0px 00px;
+
+}
+
+.img1 {
+    height: 400px;
+    width: 400px;
+}
+
+.cntet {
+    background-color: rgb(255, 255, 255);
+    padding: 100px 50px 8px 50px;
+    margin: 23px 0 73px 0px;
+    border-radius: 0px 00px 60px 0px;
+
+}
+
+.cntet-1 {
+    padding: 30px;
+}
+
+.cntet-sub {
+    font-size: 10px;
+    /* margin-top: 60px; */
+}
+
+/* .btn-styl button {
+    font-size: 25px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    width: 250px;
+    height: 60px;
+} */
+
+.ftr-edt {
+    color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(to right, #160040, #9A0680); */
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 3px;
+    font-size: 13px;
+    border-bottom-right-radius: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Signup page */
+
+/* .footer-signup-page {
+    display: inline-flex;
+} */
+
+.container {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #9A0680, #160040);
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    /* border: 2px solid #160040; */
+    background-color: #ffffff;
+    /* border-top-left-radius: 10px; */
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block;
+    text-align: right; */
+}
+
+.input {
+    padding-top: 20px;
+    /* position: absolute; */
+    font-size: 20px;
+}
+
+.img-2 {
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 5px;
+}
+
+.tpc-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #160040;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.input-edt-1 {
+    /* position: relative; */
+    width: 300px;
+    /* padding: 5px 0; */
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+    text-align: left;
+    display: inline-block;
+}
+
+/* .form .input label {
+    position: relative;
+    left: 0;
+    top: -30px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.form .input input:focus~label, .form .input input:valid~label {
+    top: -40px;
+    left: 0;
+    color: #000;
+    font-size: 12px;
+} */
+
+.btn-signup button{
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    background-color: #160040;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-signup button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-signup button:hover {
+    background-color: #9A0680;
+    transition: .5s;
+}
+
+.input-edt-2 {
+    padding: 20px 0 0 35px;
+    /* text-align: center; */
+}
+
+.footer-signup-page {
+    background-image: linear-gradient(to right, #9A0680, #160040);
+    text-align: center;
+}
+
+/* login page style */
+
+.login-stl {
+    margin-top: 50px;
+}
+
+/* edit page */
+.container-1 {
+    color: #fff;
+}
